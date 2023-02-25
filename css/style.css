@@ -1,0 +1,305 @@
+/* ============================================================================ */
+
+body {
+  background-color: #D1D1D1;
+}
+
+main {
+  width: 100%;
+  min-height: 500px;
+}
+
+/* ============================================================================ */
+
+
+/* ================ */
+/* Start of Navbar */
+/* ============== */
+
+nav {
+  background-color: #4F4C45;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 5px 1px orange;
+  position: fixed;
+  top: 0;
+}
+
+main nav img {
+  margin: 5px 20px;
+  cursor: pointer;
+}
+
+main nav .menu {
+  height: 100%;
+  margin-inline: 10px;
+}
+
+main nav .menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+main nav .menu ul li {
+  width: 150px;
+  text-align: center;
+  font-size: x-large;
+  line-height: 80px;
+  box-sizing: border-box;
+  border-right: 1px solid white;
+}
+
+main nav .menu ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+main nav .menu ul li:hover {
+  background-color: orange;
+}
+
+.active {
+  background-color: #ffa60098;
+}
+
+main nav .menu ul li.active:hover {
+  background-color: orange;
+}
+
+
+
+/* ============= */
+/* End of Navbar */
+/* ============= */
+
+/* ============================================================================ */
+
+
+
+/* ===================== */
+/* Start of Section One */
+/* =================== */
+
+
+.sec1 {
+  width: 100%;
+  height: 800px;
+}
+
+.sec1 img {
+  width: 100%;
+  height: 800px;
+}
+
+
+.sec1 aside {
+  width: 330px;
+  height: 300px;
+  position: fixed;
+  top: 300px;
+  left: -150px;
+}
+
+.sec1 aside ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+.sec1 aside ul li {
+  width: 200px;
+  height: 55px;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  line-height: 50px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  transition: .7s;
+  -webkit-transition: .7s;
+  -moz-transition: .7s;
+  -ms-transition: .7s;
+  -o-transition: .7s;
+}
+
+.sec1 aside ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+
+.sec1 aside ul li:hover {
+  /* align-self Does not support transition */
+  /* align-self: flex-end; */
+
+  margin-left: 120px;
+}
+
+.sec1 aside ul li:first-of-type {
+  background-color: #2c862f;
+}
+
+.sec1 aside ul li:nth-of-type(2) {
+  /* background-color: #2196F3; */
+  background-color: #3b5998;
+}
+
+.sec1 aside ul li:nth-of-type(3) {
+  /* background-color: #F54337; */
+  background-color: #e00000;
+}
+
+.sec1 aside ul li:last-of-type {
+  /* background-color: #00FFFB; */
+  background-color: #3ab0ae;
+}
+
+
+/* =================== */
+/* End of Section One */
+/* ================= */
+
+/* ============================================================================ */
+
+/* ===================== */
+/* Start of Section Two */
+/* =================== */
+
+
+.sec2 {
+  width: 100%;
+  height: 350px;
+  margin-block: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sec2 div {
+  background-color: #fff;
+  width: 30%;
+  height: 350px;
+}
+
+.sec2 div div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.sec2 div div h1 {
+  background: red;
+  padding: 0;
+  margin: 0;
+  height: 90px;
+  width: 100%;
+  text-align: center;
+  line-height: 90px;
+  color: white;
+  font-size: xx-large;
+}
+
+.sec2 div div p {
+  font-size: 1.8em;
+  padding: 35px;
+  margin: 0;
+  text-align: center;
+  word-break: break-all;
+}
+
+.sec2 .box2 div h1 {
+  background-color: #9A9901;
+}
+
+.sec2 .box3 div h1 {
+  background-color: #01009A;
+}
+
+/* =================== */
+/* End of Section Two */
+/* ================= */
+
+/* ============================================================================ */
+
+/* ================= */
+/* Start of Article */
+/* =============== */
+
+
+article {
+  width: 100%;
+  height: 300px;
+  background: #555555;
+  display: flex;
+  justify-content: space-around;
+}
+
+article figure {
+  width: 90%;
+  text-align: center;
+  margin: 0;
+}
+
+article figure img {
+  height: 80%;
+}
+
+article figure figcaption {
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+
+article p {
+  padding: 40px;
+  margin-right: 100px;
+  width: 170%;
+  color: white;
+  font-size: 23px;
+}
+
+/* =============== */
+/* End of Article */
+/* ============= */
+
+/* ============================================================================ */
+
+/* ================ */
+/* Start of Footer */
+/* ============== */
+
+footer {
+  height: 50px;
+  background-color: #777777;
+}
+
+footer marquee {
+  line-height: 50px;
+  font-size: xx-large;
+  color: #fff;
+}
+
+/* ============== */
+/* End of Footer */
+/* ============ */
+/* ============================================================================ */
